@@ -1,0 +1,28 @@
+.boxBack{
+  display: flex;
+  width: 100vw;
+  height: fit-content;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  width: 85vw;
+  height: fit-content;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  background-color: #576490;
+  justify-content: center;
+
+  cursor: pointer;
+  color: #CCDBDC;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.box:hover {
+  background-color: #4b5d7e;
+  color: #b6d9db;
+}
